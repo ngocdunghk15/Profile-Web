@@ -4,6 +4,13 @@ html{
     background: linear-gradient(to right,rgb(231, 96, 96),rgb(24, 23, 23));
 }
 
+body{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .tap{
     width: 100vw;
     display: flex;
